@@ -1,0 +1,27 @@
+#poroImg {
+    position: absolute;
+    top:5%;
+    right:5%;
+    width: 50%;
+    visibility: hidden;
+}
+
+.poroImg {
+    width: 100%;
+    height: auto;
+
+}
+
+#mightyContainer, #affectionateContainer, #scaryContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.visible {
+    visibility: visible;
+}

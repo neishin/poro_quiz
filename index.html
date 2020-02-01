@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <form>
+        <h4>Spotykasz wielkiego wilka. Co robisz?</h4>
+        <input type="radio" id='courage1' name="question1" value="niczego sie nie boi" checked><label for='courage1'>Rzucam mu wyzwanie do walki!</label><br>
+        <input type="radio" id='affect1' name="question1" value="bardzo lubi sie czochrać"><label for='affect1'>Pytam czy chce się przytulać</label><br>
+        <input type="radio" id='scary1' name="question1" value="straszy innych"><label for='scary1'>Nie boję się go, to on powinien bać się mnie!</label>
+    </form>
+
+    <form>
+        <h4>Razem z innymi poro znajdujecie poro snaxa! Co z nim robicie?</h4>
+        <input type="radio" id='courage2' name="question2" value="niczego sie nie boi" checked><label for='courage2'>Rozkazuje się nim podzielić</label><br>
+        <input type="radio" id='affect2' name="question2" value="bardzo lubi sie czochrać"><label for='affect2'>Sprzedaje swojego gryza za drapanie za uszkami</label><br>
+        <input type="radio" id='scary2' name="question2" value="straszy innych"><label for='scary2'>Caly snax jest dla mnie, bo inni się mnie boją!</label>
+    </form>
+
+    <form>
+        <h4>Jak często się myjesz?</h4>
+        <input type="radio" id='courage3' name="question3" value="niczego sie nie boi" checked><label for='courage3'>Nigdy! Smród powala przeciwników!</label><br>
+        <input type="radio" id='affect3' name="question3" value="bardzo lubi sie czochrać"><label for='affect3'>Kiedy jestem brudny. Kto by chciał przytulać brudnego poro?</label><br>
+        <input type="radio" id='scary3' name="question3" value="straszy innych"><label for='scary3'>Kiedy tylko chcę!</label>
+    </form>
+
+
+    <input type='submit'>
+    <div id='poroImg'>
+        <div id="migtyContainer">
+            <h1>Jesteś odważnym poro!</h1>
+            <img src="img/mighty.jpg" id="poroCourage" class='poroImg'>
+        </div>
+        <div id="affectionateContainer">
+            <h1>Jesteś przychlastem poro!</h1>
+            <img src="img/affectionate.jpg" id="poroAffectionate" class='poroImg'>
+        </div>
+        <div id="scaryContainer">
+            <h1>Jesteś straszliwym poro!</h1>
+            <img src="img/sinister.jpg" id="poroScary" class='poroImg'>
+        </div>
+    </div>
+</body>
+<script src="app.js" type="text/javascript"></script>
+
+</html>
