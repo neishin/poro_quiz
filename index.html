@@ -13,25 +13,38 @@
 
     <form>
         <h4>Spotykasz wielkiego wilka. Co robisz?</h4>
-        <input type="radio" id='courage1' name="question1" value="niczego sie nie boi" checked><label for='courage1'>Rzucam mu wyzwanie do walki!</label><br>
-        <input type="radio" id='affect1' name="question1" value="bardzo lubi sie czochrać"><label for='affect1'>Pytam czy chce się przytulać</label><br>
-        <input type="radio" id='scary1' name="question1" value="straszy innych"><label for='scary1'>Nie boję się go, to on powinien bać się mnie!</label>
+        <input type="radio" id='courage1' name="question1" value="niczego sie nie boi" checked><label for='courage1'>Nie boję się go, idę dalej</label><br>
+        <input type="radio" id='affect1' name="question1" value="bardzo lubi sie czochrać"><label for='affect1'>Przytulam go, każdy potrzebuje przytulenia, a on wygląda na puchatego!</label><br>
+        <input type="radio" id='funny1' name="question1" value="rozbawia go"><label for='funny1'>Opowiadam mu kawał! Jak się będzie śmiał to mnie nie zje!</label>
     </form>
 
     <form>
-        <h4>Razem z innymi poro znajdujecie poro snaxa! Co z nim robicie?</h4>
-        <input type="radio" id='courage2' name="question2" value="niczego sie nie boi" checked><label for='courage2'>Rozkazuje się nim podzielić</label><br>
-        <input type="radio" id='affect2' name="question2" value="bardzo lubi sie czochrać"><label for='affect2'>Sprzedaje swojego gryza za drapanie za uszkami</label><br>
-        <input type="radio" id='scary2' name="question2" value="straszy innych"><label for='scary2'>Caly snax jest dla mnie, bo inni się mnie boją!</label>
+        <h4>Widzisz leżące poro snaxa. Co z nim robisz:?</h4>
+        <input type="radio" id='jubilant2' name="question2" checked><label for='jubilant2'>Cieszę się bardzo, bo lubię poro snaxy!</label><br>
+        <input type="radio" id='sporty2' name="question2"><label for='sporty2'>Szybko i zwinnie go chwytam, będzie na przekąskę po treningu!</label><br>
+        <input type="radio" id='funny2' name="question2"><label for='funny2'>Przywiązuje do niego sznurek i czekam aż ktoś inny go zauważy, a jak się schyli to uciekam ze snaxem!</label>
     </form>
 
     <form>
-        <h4>Jak często się myjesz?</h4>
-        <input type="radio" id='courage3' name="question3" value="niczego sie nie boi" checked><label for='courage3'>Nigdy! Smród powala przeciwników!</label><br>
-        <input type="radio" id='affect3' name="question3" value="bardzo lubi sie czochrać"><label for='affect3'>Kiedy jestem brudny. Kto by chciał przytulać brudnego poro?</label><br>
-        <input type="radio" id='scary3' name="question3" value="straszy innych"><label for='scary3'>Kiedy tylko chcę!</label>
+        <h4>Twój przyjaciel jest smutny. Co robisz?</h4>
+        <input type="radio" id='affect3' name="question3" value="niczego sie nie boi" checked><label for='affect3'>Tulę go mocno żeby odeszły jego skutki!</label><br>
+        <input type="radio" id='sporty3' name="question3" value="bardzo lubi sie czochrać"><label for='sporty3'>Proponuje mu jazdę na rowerze, sport pomaga na skutki.</label><br>
+        <input type="radio" id='courage3' name="question3" value="straszy innych"><label for='courage3'>Pytam dlaczego jest smutny i staram się mu  pomóc.</label>
     </form>
 
+    <form>
+        <h4>Zbliża się szkolna impreza. Jak się z tym czujesz?</h4>
+        <input type="radio" id='courage4' name="question4" value="niczego sie nie boi" checked><label for='courage4'>Super, w końcu będę mógł zaprosić kogoś do tańca!</label><br>
+        <input type="radio" id='jubilant4' name="question4" value="bardzo lubi sie czochrać"><label for='jubilant4'>Ekstra! Uwielbiam zabawy, jest wtedy pełno śmiechu!</label><br>
+        <input type="radio" id='sporty4' name="question4" value="straszy innych"><label for='sporty4'>Nie moge się doczekać, uwielbiam tańczyć!</label>
+    </form>
+
+    <form>
+        <h4>Jaki jest Twój stosunek do kawałów?</h4>
+        <input type="radio" id='affect5' name="question5" value="niczego sie nie boi" checked><label for='affect5'>Najlepsze kawały opowiada mi tata jak się tulimy w łóżku!</label><br>
+        <input type="radio" id='jubilant5' name="question5" value="bardzo lubi sie czochrać"><label for='jubilant5'>Kawały są ekstra, uwielbiam się śmiać!</label><br>
+        <input type="radio" id='funny5' name="question5" value="straszy innych"><label for='funny5'>Ja tu jestem od opowiadania kawałów!</label>
+    </form>
 
     <input type='submit'>
     <div id='poroImg'>
@@ -43,9 +56,21 @@
             <h1>Jesteś przychlastem poro!</h1>
             <img src="img/affectionate.jpg" id="poroAffectionate" class='poroImg'>
         </div>
-        <div id="scaryContainer">
-            <h1>Jesteś straszliwym poro!</h1>
-            <img src="img/sinister.jpg" id="poroScary" class='poroImg'>
+        <div id="joyfulContainer">
+            <h1>Jesteś radosnym poro!</h1>
+            <img src="img/joyous.jpg" id="poroJoyful" class='poroImg'>
+        </div>
+        <div id="sportyContainer">
+            <h1>Jesteś wysportowanym poro!</h1>
+            <img src="img/sporty.jpg" id="poroSporty" class='poroImg'>
+        </div>
+        <div id="funnyContainer">
+            <h1>Jesteś poro kawalarzem!</h1>
+            <img src="img/funny.jpg" id="poroFunny" class='poroImg'>
+        </div>
+        <div id="heartContainer">
+            <h1>Jesteś najlepszymi częściami wszystkich poro!</h1>
+            <img src="img/heart.jpg" id="poroHeart" class='poroImg'>
         </div>
     </div>
 </body>
